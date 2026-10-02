@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Your CareFirst Plan: Updates and FAQs | CSSP and Positively Partners</title>
+<title>Your CareFirst Plan and Other Benefits: Updates and Answers | CSSP and Positively Partners</title>
 <meta name="robots" content="noindex, nofollow">
 <meta name="description" content="Updates, answers, and support for CSSP staff on the transition to the new CareFirst medical plan, the HRA, vision coverage, and prescriptions.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -73,7 +73,11 @@ nav.top a.cta:hover{filter:brightness(1.08); background:var(--mag-ink); color:#f
 /* hero */
 .hero{position:relative; overflow:hidden; padding:4.75rem 0 0; border-top:0}
 .hero .wrap{position:relative; z-index:1}
-.hero h1{max-width:15ch}
+.hero h1{max-width:20ch}
+.herogrid{display:grid; grid-template-columns:minmax(0,1.35fr) minmax(0,.65fr); gap:3rem; align-items:center}
+.herologo{margin:0; background:#000; border-radius:28px; padding:2.25rem 2rem; display:flex; align-items:center; justify-content:center; aspect-ratio:4/3; position:relative; overflow:hidden; box-shadow:0 0 0 6px var(--paper), 0 0 0 9px var(--magenta)}
+.herologo img{width:100%; max-width:340px; height:auto; display:block; position:relative}
+@media (max-width:860px){ .herogrid{grid-template-columns:1fr; gap:2rem} .herologo{order:-1; aspect-ratio:auto; max-width:300px; padding:1.25rem 1.5rem; border-radius:20px} }
 .hero .for{font-family:Poppins,sans-serif; font-weight:600; color:var(--ink-2); margin-bottom:1rem}
 .stamp{display:inline-block; margin-top:1.1rem; font-size:.95rem; color:var(--ink-3)}
 .venn{position:absolute; right:-5vw; top:-5vw; width:min(50vw,540px); aspect-ratio:1; pointer-events:none}
